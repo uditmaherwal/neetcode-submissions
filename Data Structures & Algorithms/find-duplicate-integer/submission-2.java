@@ -1,4 +1,5 @@
 class Solution {
+    //negative marking
     public int findDuplicate(int[] nums) {
         for(int num : nums){
             int idx = Math.abs(num) - 1;
